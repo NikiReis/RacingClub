@@ -1,0 +1,37 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "name": "Stock Car Brasil - Etapa de Goiânia",
+            "date": "2024-09-07",
+            "location": "Autódromo Internacional Ayrton Senna",
+            "description": "A Stock Car Brasil é a principal categoria do automobilismo brasileiro, com pilotos de renome e equipes de alto nível competindo em circuitos de todo o país. Em 2024, a Stock Car promete mais emoção e adrenalina do que nunca, com corridas disputadas e ultrapassagens incríveis.\n\nPrepare-se para ver os melhores pilotos do Brasil em ação, acelerando em busca da vitória e do título de campeão. Com um calendário repleto de corridas emocionantes, a Stock Car é o lugar perfeito para quem ama velocidade e competição.\n\nData: 7 de setembro de 2024\nLocal: Autódromo Internacional Ayrton Senna, Goiânia\nIngressos disponíveis no site oficial.\n\n\n\n",
+            "image": "https://img.redbull.com/images/c_crop,w_5184,h_2592,x_0,y_638/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2018/07/06/d8decf52-838f-4c31-8611-f38bde1e811e/stockcar-brazil-collection"
+        },
+        {
+            "id": 2,
+            "name": "Rally dos Sertões 2024",
+            "date": "2024-08-24",
+            "location": "Goiânia, GO",
+            "description": "O Rally dos Sertões é a maior prova de rally do Brasil, reunindo pilotos e equipes de todo o país em uma competição desafiadora e emocionante. Em 2024, o Rally dos Sertões promete mais aventura e adrenalina do que nunca, com etapas incríveis e paisagens deslumbrantes.\n\nPrepare-se para acompanhar os melhores pilotos do Brasil em uma jornada épica pelo sertão, enfrentando obstáculos e superando limites em busca da vitória. Com um percurso que passa por diferentes estados e cenários, o Rally dos Sertões é uma experiência única para quem ama off-road e aventura.\n\nData: 24 de agosto de 2024\nLocal: Goiânia, GO\nInscrições abertas no site oficial.\n\n\n\n",
+            "image": "https://quatrorodas.abril.com.br/wp-content/uploads/2023/07/412590_1030270_323_victoreleuterio_130510_48560-e1663010714352.jpg?crop=1&resize=1212,909"
+        },
+        {
+            "id": 3,
+            "name": "TCR Brasil - Etapa Endurance Interlagos",
+            "date": "2024-04-14",
+            "location": "Autódromo José Carlos Pace",
+            "description": "TCR®️ Brasil nasceu como o primeiro campeonato nacional do conceito TCR®️ na América Latina, aproveitando-se do êxito do campeonato sul-americano lançado em 2021. Assim como o irmão mais velho, reúne três componentes chaves para a competição: limite acessível de preço para as equipes e pilotos, mais de 12 montadoras líderes envolvidas e uma plataforma mundialmente reconhecida. O TCR®️ Brasil terá seu primeiro campeonato disputado em 2023 em paralelo com o TCR®️ South America, com um calendário com seis datas: cinco no Brasil - Interlagos, Santa Cruz do Sul, Velocitta (2) e Brasília - e uma no Uruguai - Rivera. O TCR®️ é um conceito de competição lançado em 2015 que revolucionou as corridas de carros de turismo no panorama internacional, sendo aprovada por diferentes campeonatos e séries em todo o mundo e convertendo-se na plataforma perfeita para os programas de customer racing. Nascida como uma competição orientada para isso, oferece interessantes oportunidades de negócio tanto para equipes como para construtores. Em apenas três anos, o TCR®️ consolidou-se como um dos mais importantes êxitos na indústria do automobilismo para todos os envolvidos, como demonstram os mais de 1.000 carros de corrida vendidos no mundo todo e a criação de mais de 35 campeonatos TCR®️, incluindo o TCR Brasil.\n\n\n\n",
+            "image": "https://www.tcr-series.com/images/news/2023/2023_TCR_photo_news_379.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Nascar Brasil - Etapa de Tarumã",
+            "date": "2024-10-12",
+            "location": "Autódromo Internacional de Tarumã",
+            "description": "A NASCAR Brasil Series (anteriormente conhecida como GT Sprint Race ou Sprint Race)[1], também conhecida como NASCAR Brasil, é uma série de corrida nacional da NASCAR no Brasil, que é resultado de um acordo entre a NASCAR e a GT Sprint Race.\n\n\n\n",
+            "image": "https://www.nascarbrasil.com.br/wp-content/uploads/sites/57/2024/03/12/Imagem-do-WhatsApp-de-2023-12-10-as-16.36.01_18aaddd4-960x510.jpg"
+        }
+
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "tracks": 
+  [
+    { 
+      "id": 1, "name": "Kartódromo Ayrton Senna", 
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMVBH02-gqxUJweHU9cy9ctniaDXD709qcPWGjb=s680-w680-h510", 
+      "location": "QE 23 Área Especial do Cave - Guará" 
+    },{ 
+      "id": 2, "name": "Carrera Kart e Locações Ltda", 
+      "image": "https://carrerakart.com.br/wp-content/uploads/2023/02/WhatsApp-Image-2023-01-09-at-15.31.05.jpeg", 
+      "location": "Estacionamento 11 Parque da Cidade, Brasília - DF" 
+    },{ 
+      "id": 3, "name": "Kartodrómo Internacional de Brasília", 
+      "image": "https://static.wixstatic.com/media/e588c0_7a32e98cf43b4af499b26dc9ad99be42~mv2.jpeg/v1/fill/w_502,h_502,al_c/e588c0_7a32e98cf43b4af499b26dc9ad99be42~mv2.jpeg", 
+      "location": "Kartodrómo Internacional de Brasília" 
+    },
+    {
+      "id": 4,
+      "name": "Kartódromo Internacional Granja Viana",
+      "location": "R. Tomás Sepé, 443 - Jardim da Gloria, Cotia",
+      "description": "Um dos melhores kartódromos do Brasil.",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNqDj4iPym8et_RwbjHzyixdryze-oiaCynRxOb=s680-w680-h510"
+    },
+    {
+      "id": 5,
+      "name": "Kartódromo de Interlagos (Ayrton Senna)",
+      "location": "Kartódromo de Interlagos",
+      "description": "Localizado no icônico Autódromo de Interlagos.",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipN7HmUH31k51rS7SgVd0IxpysgpGaFWuL-pYWex=s680-w680-h510"
+    }
+  ]
+}
+  

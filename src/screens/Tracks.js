@@ -1,35 +1,32 @@
 import React from "react";
 import { StyleSheet, Text, View, FlatList, Image, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import EventJson from "../db/events.json";
+import TracksJson from "../db/kartodromos.json";
 
-export default function Events() {
+export default function Tracks() {
   const navigation = useNavigation();
 
   const renderItem = ({ item }) => (
-    <TouchableOpacity onPress={() => navigation.navigate("EventDetails", { event: item })}>
-      <View style={styles.eventCard}>
-        <Image source={{ uri: item.image }} style={styles.eventImage} />
-        <Text style={styles.eventTitle}>{item.name}</Text>
-        <Text style={styles.eventDate}>{item.date}</Text>
-        <Text style={styles.eventLocation}>{item.location}</Text>
-        <Text style={styles.eventDescription} numberOfLines={3}>
+    <TouchableOpacity onPress={() => navigation.navigate("TrackDetails", { track: item })}>
+      <View style={styles.trackCard}>
+        <Image source={{ uri: item.image }} style={styles.trackImage} />
+        <Text style={styles.trackTitle}>{item.name}</Text>
+        <Text style={styles.trackLocation}>{item.location}</Text>
+        <Text style={styles.trackDescription} numberOfLines={3}>
           {item.description}
         </Text>
       </View>
     </TouchableOpacity>
-    
   );
 
   return (
     <View style={styles.container}>
       <FlatList
-        data={EventJson.events}
+        data={TracksJson.tracks}
         keyExtractor={(item) => item.id.toString()}
         renderItem={renderItem}
       />
     </View>
-    
   );
 }
 
@@ -39,7 +36,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     padding: 20,
   },
-  eventCard: {
+  trackCard: {
     backgroundColor: "#f9f9f9",
     borderRadius: 10,
     padding: 20,
@@ -49,27 +46,23 @@ const styles = StyleSheet.create({
     shadowRadius: 5,
     shadowOffset: { width: 0, height: 3 },
   },
-  eventImage: {
+  trackImage: {
     width: "100%",
     height: 150,
     borderRadius: 10,
   },
-  eventTitle: {
+  trackTitle: {
     fontSize: 18,
     fontWeight: "bold",
     marginTop: 10,
   },
-  eventDate: {
+  trackLocation: {
     fontSize: 14,
     color: "#888",
     marginTop: 5,
-  },
-  eventLocation: {
-    fontSize: 14,
-    color: "#888",
     marginBottom: 5,
   },
-  eventDescription: {
+  trackDescription: {
     fontSize: 14,
     color: "#333",
     marginTop: 5,
